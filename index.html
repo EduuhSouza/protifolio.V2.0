@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ICONES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Google Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- javascript MENU MOBILE -->
+<script src="menu.js" defer></script>
+    <!-- FIM javascript MENU MOBILE -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduarda Souza</title>
+</head>
+<body>
+
+
+
+    
+    <header class="header">
+        <div class="logo-img">
+        <img src="imgs/logo.manut.jpg" alt="">
+    </div>
+
+        <!-- DARKMODE   -->
+        <section class="darkmode">
+
+            <label>
+                <input id="check" type="checkbox" id="check">
+        
+                <i class="fa-solid fa-sun" id="sun"></i>
+                <i class="fa-solid fa-moon" id="moon"></i>
+        
+                <span class="toggle"></span>
+            </label>
+        
+        </section>
+    
+        <script>
+            const check = document.getElementById('check');
+        
+            check.addEventListener('click', () => {
+                document.body.classList.toggle('dark-mode');
+            })
+        
+        
+        </script>
+
+    <nav class="navbar">
+       
+        <a href="#inicio"> Inicio </a>
+        <a href="#contato"> Contato </a>
+        <a href="#projetos"> Projetos </a>
+        <a href="#habilidades"> Habilidades </a>
+    </nav>
+
+
+    
+<!-- MOBILE -->
+
+<div class="btn-abrir-menu" id="btn-menu"> <!-- COMEÇO ABRIR MENU -->
+    <i class="fa-solid fa-bars"></i>
+</div> <!-- FINAL ABRIR MENU -->
+
+
+<div class="menu-mobile" id="menu-mobile"> <!-- COMEÇO MENU MOBILE-->
+    <div class="btn-fechar">
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+
+    <nav class="mobile-nav">  <!-- COMEÇO NAVBAR MENU -->
+        
+        <a href="#inicio"> Inicio </a>
+        <a href="#contato"> Contato </a>
+        <a href="#projetos"> Projetos </a>
+        <a href="#habilidades"> Habilidades </a>
+
+    </nav> <!-- FINAL NAVBAR MENU -->
+    
+</div> <!-- FINAL MENU MOBILE-->
+<div class="overlay-menu" id="overlay-menu"></div>
+
+<!-- FIM MOBILE -->
+
+</header>
+
+<div class="main-container">
+
+    <div class="content">
+        <h1> Olá, eu sou <span> Eduarda Souza</span></h1>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem unde perspiciatis dolore, est quae minima architecto quas. Beatae vitae officia saepe nesciunt excepturi provident repellendus assumenda. Asperiores, a aperiam. Recusandae!</p>
+    
+
+    <!-- ICONES -->
+    <div class="icons-social">
+        <a href="https://www.linkedin.com/in/eduarda-souza-3157942b0/" class="icon1"> <i class="fa-brands fa-linkedin-in"></i></a>
+
+        <a href="https://www.instagram.com/souza.eduuh/" class="icon2"> <i class="fa-brands fa-instagram"></i></a>
+
+        <a href="https://github.com/EduuhSouza" class="icon3"> <i class="fa-brands fa-github"></i></a>
+    </div>
+    
+
+    <div class="btn-cv">
+    <button > Download CV</button>
+</div>
+</div>
+
+    <!-- IMAGEM FOTO -->
+    <div class="img-foto">
+        <img src="fotos/Perfil.jpeg" alt="">
+    </div>
+</div>
+
+<div class="conteiner-2">
+
+    <div class="titulo-soft">
+        <h2> Soft Skills </h2>
+    </div>
+
+    <div class="icon">
+
+    </div>
+</div>
+    
+</body>
+</html>
